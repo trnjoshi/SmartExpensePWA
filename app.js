@@ -3,7 +3,7 @@
 // ===============================
 
 // Replace this with your Apps Script Web App URL
-const API_URL = "https://script.google.com/macros/s/AKfycbxJJeT_ZnbgiekqR4h9XpnVDM8RNEj_vsglcred_0T6R2cKFxVFsZjLFoSpAsWoZ0gx/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbzXQMMgKIWjdPJKMihK3POKrMJxfA2dRaeyICvNz0_7Ugm5WdJA21LUAmePGRsNJ50f/exec";
 
 const summaryDiv = document.getElementById("summary");
 const ctx = document.getElementById("pieChart");
@@ -131,4 +131,5 @@ if ("serviceWorker" in navigator) {
 // Auto-load data on startup
 // -------------------------------
 fetchExpenses();
+
 
