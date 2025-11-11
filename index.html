@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💰 Smart Expense Tracker</title>
+
+  <!-- Connect manifest (so Android can install it) -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Your CSS file -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Chart.js for drawing graphs -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <header>
+    <h2>💰 Smart Expense Tracker</h2>
+    <button id="refreshBtn">🔄 Refresh Data</button>
+  </header>
+
+  <main>
+    <section id="summary"></section>
+    <canvas id="pieChart"></canvas>
+    <button id="emailBtn">📧 Send Email Report</button>
+  </main>
+
+  <footer>
+    <p>Powered by Google Sheets + Apps Script</p>
+  </footer>
+
+  <!-- Your JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
